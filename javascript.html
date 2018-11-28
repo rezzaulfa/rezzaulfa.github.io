@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Biodata</title>
+  <link rel="stylesheet" href="javascript.css">
+  <link rel="stylesheet" href="grid12.css">
+  <link rel="stylesheet" href="javascriptform.js">
+</head>
+
+<body>
+  <header id="menu fixed header">
+    <div class="row">
+      <div class="col-md-6 col-xs-6">
+        <img src="familyportal.jpg" height="75px" align="center">
+      </div>
+
+      <div class="col-md-6 col-xs-6 visible-lg visible-xs">
+        <div class="table">
+          <table>
+            <ul id="inline">
+              <li><a href="Beranda.html">HOME</a></li>
+              <li><a href="Tentang.html">TENTANG</a></li>
+              <li><a class="active" href="Biodata.html">BIODATA</a></li>
+              <li><a href="Galery.html">GALERY</a></li>
+              <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+          </table>
+        </div>
+      </div>
+    </div>
+  </header>
+  <hr color="orange" size="6" width="auto">
+  <header>
+    <div class="header">
+      <h1>
+        <center>Isikan Data Diri Keluarga Anda</center>
+      </h1>
+    </div>
+  </header>
+
+  <form>
+    <font face="Arial">
+      Nama Lengkap : <input type='text' name='nama'><br>
+      Tempat Lahir : <input type='text' name='tempat'><br>
+      Tanggal Lahir : <input type='date' name='tanggal'><br>
+      Agama : <input type='text' name='agama'><br>
+      E-mail : <input type='text' name='email'><br>
+      Orang Tua : <input type='text' name='orangtua'><br>
+      Deskripsi : <input type='text' name='deskripsi'><br>
+
+
+      <input style="margin-left: 20%; margin-top: 20px;" type='button' onClick='terimainput()' value='Submit'>
+      <input type='reset' value='Reset'>
+  </form>
+
+  <table style="margin-top: 50px; margin-left: 0px; color: black;" border='3px white' cellpadding="20" id='tabelinputan'>
+    <tr>
+      <td>Nama Lengkap</td>
+      <td>Tempat Lahir</td>
+      <td>Tanggal Lahir</td>
+      <td>Agama</td>
+      <td>E-mail</td>
+      <td>Orang Tua</td>
+      <td>Deskripsi</td>
+    </tr>
+  </table>
+  </font>
+
+</body>
+
+</html>

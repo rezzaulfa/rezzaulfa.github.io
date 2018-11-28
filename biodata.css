@@ -1,0 +1,146 @@
+a{
+	text-decoration: none;
+	font-style: none;
+	color: black;
+}
+
+body{
+margin: 50px;
+width: auto;
+background-color: white;
+padding: 10px;
+}
+
+
+.text{
+	font-size: 15px;
+}
+
+#menu fixed header {
+	float: left;
+	height: 50px;
+	weight: 50px;
+	margin: 10px;
+	margin-left: 50px;
+	padding-bottom:10px;
+}
+
+#inline li {
+    float: left;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#inline li a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: black;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+#inline li a:hover {
+  background: #454d59;
+  color: white;
+}
+
+#inline li a.active {
+  background: #454d59;
+  color: white;
+}
+
+.justify {
+text-align: justify;
+img-align: justify;
+line-height: 2;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 15%;
+}
+
+.gallery {
+    border: 10px solid white;
+}
+
+.gallery:hover {
+    border: 2px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+	font-family: Berlin Sans FB Demi;
+	font-size: 85%;
+}
+.img-responsive{
+	display: block;
+	margin: 30px 0 0 0;
+	height: 30px;
+}
+.responsive2 {
+    padding: 0 6px;
+    float: left;
+    width: 15%;
+}
+
+.gallery2 {
+    border: 10px solid grey;
+}
+
+.gallery2:hover {
+    border: 2px solid #777;
+}
+
+.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc2 {
+    padding: 10px;
+    text-align: center;
+	font-family: Berlin Sans FB Demi;
+	font-size: 85%;
+}
+
+.header{
+	font-family: Berlin Sans FB Demi;
+}
+
+
+.dropdown {
+	float: right;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+		position: absolute;
+		right: 0;
+		top: 60px;
+    display: none;
+    background-color: black;
+    min-width: 200px;
+		z-index: 10;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-child a:hover {
+    background-color: orange;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}

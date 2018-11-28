@@ -1,0 +1,130 @@
+body{
+margin: 50px;
+width: auto;
+background-color: white;
+padding: 10px;
+}
+
+.div table{
+padding: 50px;
+margin-left: 30px;
+}
+
+.text{
+	font-size: 15px;
+}
+
+#menu fixed header {
+	float: left;
+	height: 50px;
+	weight: 50px;
+	margin: 10px;
+	margin-left: 50px;
+	padding-bottom:10px;
+}
+
+#inline li {
+    float: left;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#inline li a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: black;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+#inline li a:hover {
+  background: #454d59;
+  color: white;
+}
+
+#inline li a.active {
+  background: #454d59;
+  color: white;
+}
+
+.img-responsive{
+	display: block;
+	margin: 30px 0 0 0;
+	height: 30px;
+}
+
+.responsive2 {
+    padding: 0 6px;
+    float: left;
+    width: 15%;
+}
+
+.justify {
+text-align: justify;
+font-family: sans-serif;
+font-size: 15px;
+color: black;
+}
+
+img.tengah {
+	width: 100%;
+}
+
+article{
+	margin: -100px 0px;
+}
+
+.background{
+		background-image: url("galery4.jpg");
+		height: 500px;
+}
+.judul{
+	font-size: 100px;
+	text-align: center;
+	padding: 50px 0px 240px 0px;
+	color: white;
+	font-family: Bernard MT;
+}
+
+.keluarga{
+	font-family: Bernard MT;
+	font-size: 45px;
+	color: #B46C06;
+	margin-top: 20px;
+}
+
+.susilo{
+	font-family: Bernard MT;
+	font-size: 28px;
+	color: black;
+	margin-top: 5px;
+}
+
+.dropdown {
+	float: right;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+		position: absolute;
+		right: 0;
+		top: 60px;
+    display: none;
+    background-color: black;
+    min-width: 200px;
+		z-index: 10;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-child a:hover {
+    background-color: orange;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}

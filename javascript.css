@@ -1,0 +1,58 @@
+input [type='button']:hover
+		{
+			background-color: green;
+		}
+
+body{
+margin: 50px;
+width: auto;
+background-color: white;
+padding: 10px;
+}
+
+.icon{
+	margin-top: 30px;
+	margin-left: 20px;
+	weight: 40px;
+	height: 40px;
+}
+
+
+#menu fixed header {
+	float: left;
+	height: 50px;
+	weight: 50px;
+	margin: 10px;
+	margin-left: 50px;
+	padding-bottom:10px;
+}
+
+#inline li {
+    float: left;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#inline li a {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: black;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+#inline li a:hover {
+  background: #454d59;
+  color: white;
+}
+
+#inline li a.active {
+  background: #454d59;
+  color: white;
+}
+
+.justify {
+text-align: justify;
+}
